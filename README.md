@@ -7,6 +7,6 @@ Pokud si chcete vygenerovat vlastní, použijte:
 
 `python get_midi_table.py --file <file>`
 
-Výstup bude na `stdin`.
+Výstup bude na `stdout`.
 
 Pokud narazíte na nějakého šotka, vyřešte ho. ;)
