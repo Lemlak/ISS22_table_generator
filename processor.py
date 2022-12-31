@@ -108,7 +108,7 @@ class ISSMidiFile():
         note = [0]*90
         i = 0
         for msg in self.loaded_midi:
-            if msg.time > 0:
+            if msg.time >= 0:
                 note[-1] = input_time
                 input_time += msg.time
                 note[-2] = input_time
